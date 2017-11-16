@@ -13,4 +13,4 @@ gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'https://frank-cq.github.io'
-author:         'Your Name'
+author:         'Frank'
