@@ -13,7 +13,12 @@ url:              https://frank-cq.github.io
 
 author:
   name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  #url:            https://twitter.com/mdo
+  github:          frank-cq
+  csdn:            'alading2009'
+  jianshu:         '会行走的两脚书橱'
+  email:           'chenqingse@outlook.com'
+  bokeyuan:        '夜读春秋'
 
 paginate:         5
 
