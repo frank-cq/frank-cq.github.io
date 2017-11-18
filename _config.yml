@@ -27,7 +27,7 @@ paginate:         5
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/frank-cq/frank-cq.github.io
 
 # Gems
 plugins: [jekyll-paginate]
