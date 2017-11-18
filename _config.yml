@@ -10,6 +10,7 @@ title:            Frank
 tagline:          'Software Developer in Shenzhen'
 description:      ':) Interested in Programming & philosophy & novel & movie'
 url:              https://frank-cq.github.io
+baseurl:          ''
 
 author:
   name:           'Frank'
