@@ -21,12 +21,6 @@
         <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
-    <div class="sidebar-item">
-        <p>
-            &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
-    </div>
-
     <div id="contact-list" style="text-align:center">
         {% if site.author.github %}
         <a href="https://github.com/{{ site.author.github }}">
@@ -35,6 +29,21 @@
               <i class="fa fa-github fa-stack-1x"></i>
             </span>
         </a>
+        {% endif %} {% if site.author.stackoverflow %}
+        <a href="https://stackoverflow.com/users/4653985/{{ site.author.stackoverflow }}">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-stackoverflow fa-stack-1x"></i>
+            </span>
+        </a>
         {% endif %}
     </div>
+
+    <div class="sidebar-item">
+        <p>
+            &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
+    </div>
+
+
 </div>
