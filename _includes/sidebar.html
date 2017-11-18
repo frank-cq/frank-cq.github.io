@@ -5,16 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
 
-    <div id="contact-list" style="text-align:center">
-        {% if site.author.github %}
-        <a href="https://github.com/{{ site.author.github }}">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-github-alt fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-    </div>
+
 
     <div class="sidebar-item">
         <p>{{ site.description }}</p>
@@ -34,5 +25,16 @@
         <p>
             &copy; {{ site.time | date: '%Y' }}. All rights reserved.
         </p>
+    </div>
+
+    <div id="contact-list" style="text-align:center">
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
     </div>
 </div>
