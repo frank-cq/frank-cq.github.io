@@ -1,10 +1,27 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
+
 <p class="message">
-  Today is a good day.
+  这是我的个人博客，记录我的思考轨迹。
 </p>
 
-Everything is awesome!
+<br/>
+
+<font size=4>
+
+**出生于巴蜀**
+
+**求学于齐鲁**
+
+**而今混迹于鹏城某金融IT工地**
+
+**读过西方名著，不甚了了**
+
+**尝入门哲学，而苦于愚钝**
+
+**自入计算机门，走上了终身学习的不归路 :)**
+
+
