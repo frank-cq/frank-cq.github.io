@@ -6,9 +6,9 @@ highlighter:        rouge
 permalink:        pretty
 
 # Setup
-title:            Frank
+title:            Frank 
 tagline:          'Stay hungry stay foolish'
-description:      'Programming & philosophy & novel & movie'
+description:      ':) Interested in Programming & philosophy & novel & movie'
 url:              https://frank-cq.github.io
 
 author:
