@@ -5,7 +5,7 @@ title: About Me
 
 
 <p class="message">
-  这是我的个人博客，记录我的思考轨迹。
+  我的frank，这是我的个人博客，记录我的思考轨迹。
 </p>
 
 
