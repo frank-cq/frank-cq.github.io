@@ -9,7 +9,10 @@
       </a>
         </h1>
 
-        <span class="post-date">{{ post.date | date_to_string }}</span> {% if post.excerpt %} {{ post.excerpt }} {% else %} {{ post.content }} {% endif %}
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+
+        <p>{{ post.excerpt }}</p>
+        <!--{{ post.content }}-->
 
     </div>
     {% endfor %}
