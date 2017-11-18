@@ -1,4 +1,8 @@
---- layout: page title: Tags ---
+--- 
+layout: page 
+title: Tags 
+---
+
 <!-- Page code borrowed from dbtek and psteadman -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} {% assign tag_words = site_tags | split:',' | sort %}
 
