@@ -3,6 +3,7 @@ layout: post
 title: Ubuntu修改DNS
 categories: []
 tags: [Linux]
+comments: true
 ---
 
 
