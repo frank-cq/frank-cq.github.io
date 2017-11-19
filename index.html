@@ -14,7 +14,16 @@ layout: default
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     <!-- {{ post.content }} -->
-    {{ post.content | strip_html | truncatewords:6 }}
+    <!-- {{ post.content | strip_html | truncatewords:6 }} -->
+    <div class="excerpt">
+      {{ post.content | strip_html | truncatewords:75 }}
+      <a href="{{ post.url }}">Continue Reading...</a>
+      <br/>
+      <span class="comments-count">
+        <a class="comments-count-icon"><i class="fa fa-comment"></i></a>
+        <a href="{{ post.url }}#disqus_thread"> Comments</a>
+      </span>
+    </div>
   </div>
   {% endfor %}
 </div>
