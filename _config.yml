@@ -11,7 +11,7 @@ tagline:          'Software Developer in Shenzhen'
 description:      ':) Interested in Programming & philosophy & novel & movie & game'
 url:              https://frank-cq.github.io
 
-excerpt_separator: '/n'
+excerpt_separator: '<!--more-->'
 
 author:
   name:           'Frank'
