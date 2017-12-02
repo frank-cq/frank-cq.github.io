@@ -12,7 +12,7 @@ Download it from [Anaconda's website](https://www.anaconda.com/download/).
 
 Install it by default.
 
-Set the environment variables. Add `[your install path of Anaconda]` and `[your install path of Anaconda]\Scripts` to your path, in order to run python and conda in your command line. 
+Set the environment variables. Add `[your install path of Anaconda]` and `[your install path of Anaconda]\Scripts` to your *path*, in order to run python and conda in your command line. 
 
 Update the environment. Run `conda update --prefix [your install path of Anaconda] anaconda` in command line.
 
