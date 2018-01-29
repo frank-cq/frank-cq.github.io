@@ -69,4 +69,4 @@ Give yourself a challenge.
 
 There’s more beneath the surface than you could ever imagine.
 
-> 养成读论文的好习惯
+> 总结一下，就是要养成读论文的好习惯
