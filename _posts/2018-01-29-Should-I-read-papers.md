@@ -6,7 +6,9 @@ tags: [转载]
 comments: true
 ---
 
-转自：[Should I read papers ?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
+转一篇14年的文章：[Should I read papers ?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
+
+> 周末再译
 
 Papers, papers, papers. Papers have gotten a lot of attention these days. There are Twitter accounts, meetups all over the world, GitHub repositories, and lots and lots of chatter about reading papers. With all this talk about papers, people are bound to ask:
 
