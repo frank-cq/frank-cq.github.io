@@ -2,7 +2,7 @@
 layout: post
 title: 该不该读论文？
 categories: []
-tags: [转载]
+tags: [Think]
 comments: true
 ---
 

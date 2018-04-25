@@ -2,7 +2,7 @@
 layout: post
 title: Install Anaconda in Win10
 categories: []
-tags: [Python]
+tags: [Code]
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: VSCode 执行 Python 报 [Done] exited with code=null
 categories: []
-tags: [Bug]
+tags: [Code]
 comments: true
 ---
 

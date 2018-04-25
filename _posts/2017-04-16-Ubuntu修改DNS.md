@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu修改DNS
 categories: []
-tags: [Linux]
+tags: [Code]
 comments: true
 ---
 
