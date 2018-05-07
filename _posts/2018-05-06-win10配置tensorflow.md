@@ -13,22 +13,22 @@ comments: true
 >显卡：GTX 960m
 >Python：3.6
 
-##安装 Python 环境
+## 安装 Python 环境
 用的 Anaconda，版本 4.5.2，python 3.6。
 
-##安装 tensorflow 
+## 安装 tensorflow 
 根据 [官网说明](https://www.tensorflow.org/install/install_windows?hl=zh-cn) 安装 tensorflow，可选仅支持 cpu 模式的，这里选的是支持 gpu 的。
 ```
 pip install --ignore-installed --upgrade tensorflow-gpu
 ```
 
-##安装 cuda
+## 安装 cuda
 下载 [cuda-9.0](https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal)，本体加两个补丁，下到本地后直接执行就行。
 
-##安装cuDNN
+## 安装cuDNN
 到这里需要注册个会员，下载 [cuDNN](https://developer.nvidia.com/rdp/cudnn-download)，选择 win10 下适配 cuda-9.0的版本。将解压后 cuda 文件夹里的内容扔到安装的 CUDA 文件夹下。
 
-##跑个例子
+## 跑个例子
 ```py
 import tensorflow as tf
 a = tf.constant([1.0,2.0],name="a")
@@ -52,8 +52,8 @@ totalMemory: 2.00GiB freeMemory: 1.65GiB
 2018-05-05 19:03:10.018493: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1417 MB memory) -> physical GPU (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
 ```
 
-##安装过程的问题
-####P1
+## 安装过程的问题
+#### P1
 
 ```
 You are using pip version 9.x.x, however version 10.x.x is available. You should consider upgrading
@@ -64,7 +64,7 @@ You are using pip version 9.x.x, however version 10.x.x is available. You should
  python <解压路径下的setup.py> install
 ```
 
-####P2
+#### P2
 如果装了 tensorflow 不支持的 cuda 版本，会遇到类似下面的问题
 ```
 ImportError: Could not find 'cudart64_90.dll'. TensorFlow requires that this DLL be installed in a directory that is named in your %PATH% environment variable. 
