@@ -90,5 +90,5 @@ pom.xml 文件中还有两个地方也简单说明一下，cas.version 设置使
 ![image.png](https://upload-images.jianshu.io/upload_images/716099-b1bfdf0fc855bbf1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-
+本篇就讲到这里，欲知后事如何，且听下回分解。
 
